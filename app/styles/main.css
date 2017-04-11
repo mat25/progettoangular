@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px!important;
+  }
+  .table > thead > tr > th,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > td {
+    vertical-align: middle;
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+  }
+  .tbtitle {
+    height: 85px;
+  }
+  .navbar-brand {
+    text-transform: uppercase;
+  }
+  .logo-brand {
+    padding: 10px 15px!important;
+  }
+  .logo-brand img {
+    height: 30px;
+    width: 30px;
+  }
+  .navbar-brand {
+    padding: 17px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h1>Album</h1>
+    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+  </div>
+</div>
+<div class="row marketing">
+  <div ng-repeat="photo in photos" class="col-sm-6 col-md-3 text-center">
+    <div class="thumbnail">
+      <img class="img-rounded" src="{{photo.thumbnailUrl}}" alt="...">
+      <div class="caption">
+        <h3></h3>
+        <p class="tbtitle">{{photo.title}}</p>
+        <a href="#/photo/{{photo.id}}" class="btn btn-default" role="button">Visualizza</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row marketing text-center">
+  <a class="btn btn-primary" href="#/albums/" ng-click="" >Back</a>
+
+</div>
+
+
